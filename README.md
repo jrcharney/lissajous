@@ -34,10 +34,10 @@ A $\delta$ (delta) value provides for a *phase shift* variable.
 
 $$
 \begin{aligned}
-\begin{case}
+\begin{cases}
 x &= \cos(t) \\
 y &= \cos(Nt)
-\end{case}
+\end{cases}
 \end{aligned}
 $$
 
