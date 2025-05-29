@@ -1,0 +1,24 @@
+# Ignore object files
+*.o
+
+# Ignore the executable
+lissajous
+
+# Ignore build artifacts
+*.out
+*.exe
+*.log
+*.tmp
+
+# Ignore backup/editor files
+*~
+*.swp
+*.bak
+
+# Ignore old directory
+old/
+
+# Ignore build directories (if added later)
+build/
+bin/
+
