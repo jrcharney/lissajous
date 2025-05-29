@@ -10,7 +10,7 @@ $$
 \begin{aligned}
 \begin{cases}
 x &= A \sin(\omega_a \cdot t + \delta) \\
-y &= B \sin(\omega_b \tdot t)
+y &= B \sin(\omega_b \cdot t)
 \end{cases}
 \end{aligned}
 $$
@@ -25,7 +25,7 @@ $$
 \end{aligned}
 $$
 
-where $f$ is the frequency in Hertz (Hz).  It also simplifies the need to calculate the $A : B$ ratio.  I set it to $2 : 3$ for that classic curve
+where $f$ is the frequency in Hertz (Hz).  It also simplifies the need to calculate the $A : B$ ratio.  I set it to $2 : 3$ for that classic Lissajous curve everyone is familiar with.
 
 A $\delta$ (delta) value provides for a *phase shift* variable.
 
@@ -33,7 +33,7 @@ A $\delta$ (delta) value provides for a *phase shift* variable.
 > The relation of some Lissajous curves to Chebyshev polynomias is better understood if the Lissajous curve which generates each of them is express using a cosing function rather than a sine function.
 
 $$
-\begin{algined}
+\begin{aligned}
 \begin{case}
 x &= \cos(t) \\
 y &= \cos(Nt)
